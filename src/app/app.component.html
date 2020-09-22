@@ -1,0 +1,9 @@
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/app-noticia" >Cargar noticia</button>
+
+    <button mat-menu-item routerLink="/app-listar-noticia" >Listar noticias</button>
+</mat-menu>
+
+
+<router-outlet></router-outlet>

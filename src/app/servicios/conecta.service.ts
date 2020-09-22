@@ -9,4 +9,9 @@ export class ConectaService {
 
   constructor(private httpClient: HttpClient) {}
   
+  getNoticia(): Observable<any> {
+		return this.httpClient.get('./../assets/noticia.json');
+	}
+
+
 }
