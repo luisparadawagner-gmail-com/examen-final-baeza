@@ -10,7 +10,7 @@ import { ConectaService } from '../servicios/conecta.service';
 })
 export class ListarNoticiaComponent implements OnInit {
 
-  displayedColumns: string[] = ['titulo', 'texto', 'fecha','estado', 'editar'];
+  displayedColumns: string[] = ['titulo', 'texto', 'fecha','estado', 'editar', 'editarEstado'];
   dataSource: any[] = [];
 
   constructor(private router:Router,private conectaService: ConectaService,private route: ActivatedRoute) { }
@@ -32,6 +32,8 @@ export class ListarNoticiaComponent implements OnInit {
 
       this.parametro = this.route.snapshot.params;
 
+     
+
     if (Object.keys(this.parametro).length) {
       this.recibeNoticia(this.parametro);
     }
@@ -49,6 +51,8 @@ export class ListarNoticiaComponent implements OnInit {
         this.router.navigate(["/app-noticia",user]);
       }
   
-
+  goToEditarEstado(user) {		
+        this.router.navigate(["/app-noticia",user]);
+      }
     
 }
