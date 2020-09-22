@@ -1,6 +1,6 @@
 [   
-    { "titulo": "Salud", "texto": "La cantidad de hospitales..", "fecha": "2020-09-19", "estado": "Publicada"},
-    { "titulo": "Ciencia", "texto": "Los avances de la ciencia 2020", "fecha": "2020-01-22", "estado": "NoPublicada" },
-    { "titulo": "Entretenimiento", "texto": "Las series mas vistas..", "fecha": "2020-07-19", "estado": "Publicada"}
+    { "titulo": "Salud", "texto": "La cantidad de hospitales..", "fecha": "2020-09-19", "estado": "Publicado"},
+    { "titulo": "Ciencia", "texto": "Los avances de la ciencia 2020", "fecha": "2020-01-22", "estado": "Publicado" },
+    { "titulo": "Entretenimiento", "texto": "Las series mas vistas..", "fecha": "2020-07-19", "estado": "No Publicado"}
     
 ]
